@@ -1,8 +1,36 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+bun.lockb
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+logs/
+*.log*
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+lerna-debug.log
+.bun-debug.log
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
